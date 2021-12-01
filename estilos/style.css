@@ -35,7 +35,7 @@ header > p {
     padding-bottom: 50px;
 }
 
-.paragrafo {
+div.titulo {
     display: inline-block;
     font-size: 7vw;
 }
