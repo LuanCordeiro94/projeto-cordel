@@ -20,21 +20,21 @@ header {
 }
 
 header > h1 {
-    color: white;
+    color: #fff;
     text-align: center;
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 76.8px;
     padding: 50px 0px 0px 0px;
     position: relative;
 }
 
 span.titulo {
     display: inline-block;
-    font-size: 7vw;
+    font-size: 53.8px;
 }
 
 header > p {
-    color: white;
+    color: #fff;
     text-align: center;
     font-family: var(--fonte1);
     padding-bottom: 50px;
@@ -42,67 +42,55 @@ header > p {
 
 
 header a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-header a:hover {
-    text-decoration: underline;
-}
-
 section {
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 26.9px;
     line-height: 2em;
     padding: 65px 30px;
 }
 
-section.A {
-    padding-bottom: 130px;
+section.secao-1 {
+    padding-bottom: 70px;
 }
 
-section.B {
+section.secao-2 {
     background-image: url('../imagens/background001.jpg');
     background-position: right top;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    color: #fff;
     box-shadow: inset 2px 2px 10px 5px rgba(0, 0, 0, 0.158);
 }
 
-section.B > p {
+section.secao-2 > p {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 5px;
 }
 
-section.C > p {
-    padding-bottom: 40px;
-}
-
-section.D {
+section.secao-4 {
     background-image: url('../imagens/background002.jpg');
     background-position: left bottom;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    color: #fff;
     box-shadow: inset 2px 2px 10px 5px rgba(0, 0, 0, 0.178);
 }
 
-section.D > p {
+section.secao-4 > p {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 1px black;
 }
 
-section.E > p {
-    padding-bottom: 45px;
-}
-
 footer {
-    color: white;
+    color: #fff;
     background-color: black;
     font-family: var(--fonte1);
     padding: 10px;
@@ -116,11 +104,25 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-footer a:hover {
+a:hover {
     color: rgba(255, 255, 255, 0.637);
+}
+
+@media (max-width: 768px) {
+    header > h1 {
+        font-size: 10vw;
+    }
+
+    span.titulo {
+        font-size: 7vw;
+    }
+
+    section {
+        font-size: 3.5vw;
+    }
 }
